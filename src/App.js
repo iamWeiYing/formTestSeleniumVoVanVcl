@@ -158,7 +158,7 @@ function App() {
               <label htmlFor="index_data" className="mr-3">
                 Index Data:
               </label>
-              {elementType != "button" ? (
+              {elementType !== "button" ? (
                 <input
                   className="w-1/2"
                   type="text"
